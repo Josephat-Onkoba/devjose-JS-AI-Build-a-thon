@@ -30,12 +30,10 @@
   "dependencies": {
     "@azure-rest/ai-inference": "^1.0.0-beta.6",
     "@azure/core-auth": "^1.9.0",
-    "@langchain/azure-openai": "^0.0.11",
     "@langchain/openai": "^0.5.13",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "langchain": "^0.3.28",
-    "pdf-parse": "^1.1.1"
+    "langchain": "^0.3.28"
   }
 }
