@@ -1,0 +1,9 @@
+{
+    "dotnetAcquisitionExtension.installTimeoutValue": 180,
+    "dotnetAcquisitionExtension.existingDotnetPath": [
+        {
+            "extensionId": "ms-azuretools.azurerm-vscode-tools",
+            "path": "/usr/share/dotnet/dotnet"
+        }
+    ]
+}
