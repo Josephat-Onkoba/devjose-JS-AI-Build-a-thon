@@ -13,14 +13,14 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://example.com"
   },
   "bugs": "",
   "keywords": [],
   "author": {
     "name": "",
-    "email": "",
-    "url": ""
+    "email": "youremail@example.com",
+    "url": "https://example.com"
   },
   "contributors": [],
   "scripts": {
