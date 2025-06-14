@@ -11,8 +11,6 @@ import pdfParse from 'pdf-parse/lib/pdf-parse.js';
 import { BufferMemory } from "langchain/memory";
 import { ChatMessageHistory } from "langchain/stores/message/in_memory";
 
-dotenv.config();
-
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -20,6 +18,8 @@ app.use(express.json());
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const projectRoot = path.resolve(__dirname, '../..');
+
+dotenv.config({ path: path.join(projectRoot, '.env') });
 const pdfPath = path.join(projectRoot, 'data/employee_handbook.pdf');
 const sessionMemories = {};
 
