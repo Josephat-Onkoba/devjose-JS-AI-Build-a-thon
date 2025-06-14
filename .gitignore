@@ -290,6 +290,7 @@ node_modules/
 /home/jose/Desktop/devjose-JS-AI-Build-a-thon/packages/webapi/node_modules
 /home/jose/Desktop/devjose-JS-AI-Build-a-thon/packages/webapp/node_modules
 /home/jose/Desktop/devjose-JS-AI-Build-a-thon/packages/webapp/dist
+packages/webapi/.env
 
 # Visual Studio 6 build log
 *.plg
