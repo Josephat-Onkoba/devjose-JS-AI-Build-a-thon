@@ -1,0 +1,5 @@
+type: bing_grounding
+id: bing_search
+options:
+  tool_connections:
+    - /subscriptions/8f9d3ef4-9325-4b6e-a4f0-89b26932c958/resourceGroups/rg-josephatonkoba30-0919/providers/Microsoft.Bing/accounts/bingsearch-agent-mode

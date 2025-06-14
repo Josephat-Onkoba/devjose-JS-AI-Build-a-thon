@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=https://aka.ms/ai-foundry-vsc/agent/1.0.0
+version: 1.0.0
+id: asst_CNnTOOrmNQR5vkMttj8dkwMt
+name: my-agent
+tools:
+  - type: bing_grounding
+    id: bing_search
+    options:
+      tool_connections:
+        - /subscriptions/8f9d3ef4-9325-4b6e-a4f0-89b26932c958/resourceGroups/rg-josephatonkoba30-0919/providers/Microsoft.Bing/accounts/bingsearch-agent-mode
+metadata:
+  authors:
+    - author1
+    - author2
+  tags:
+    - tag1
+    - tag2
+description: Description of the agent
+instructions: >-
+  You are a helpful agent who loves emojis 😊. Be friendly and concise in your responses. 
+  You have access to Bing Search which you should use to get real-time information 
+  when users ask about current events, weather, news, or other up-to-date information. 
+  Always use the bing_search tool when responding to queries about current conditions or events.
+model:
+  id: gpt-4o
+  options:
+    temperature: 1
+    top_p: 1
