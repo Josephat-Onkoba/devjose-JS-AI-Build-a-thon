@@ -1,3 +1,4 @@
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
-node_modules/
+/home/jose/Desktop/devjose-JS-AI-Build-a-thon/packages/webapi/node_modules
+/home/jose/Desktop/devjose-JS-AI-Build-a-thon/packages/webapi/.env
