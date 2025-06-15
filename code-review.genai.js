@@ -1,3 +1,8 @@
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+if (!GITHUB_TOKEN) {
+    throw new Error("GITHUB_TOKEN environment variable is required");
+}
+
 const changes = await git.diff({ staged: true });
 
 // Provide the missing third argument (e.g., an empty string or appropriate value)
